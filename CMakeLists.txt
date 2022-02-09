@@ -105,7 +105,9 @@ file(GLOB PROFILES_SOURCES  "vendors/bluez/profiles/audio/a2dp.c"
                             "vendors/bluez/profiles/network/server.c"
                             
                             "vendors/bluez/profiles/scanparam/scan.c"
-                            "vendors/bluez/profiles/scanparam/scpp.c")
+                            "vendors/bluez/profiles/scanparam/scpp.c"
+                            
+                            "vendors/bluez/profiles/heartrate/heartrate.c")
 
 file(GLOB BTIO_SOURCES "vendors/bluez/btio/btio.c")
 
